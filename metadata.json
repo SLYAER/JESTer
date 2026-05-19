@@ -1,0 +1,6 @@
+{
+  "name": "Cyrus",
+  "description": "C.Y.R.U.S. - Highly capable AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

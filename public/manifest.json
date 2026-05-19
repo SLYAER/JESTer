@@ -1,0 +1,17 @@
+{
+  "name": "C.Y.R.U.S.",
+  "short_name": "CYRUS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#01050b",
+  "theme_color": "#01050b",
+  "description": "Cybernetic Yielding Resource Utility System",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
