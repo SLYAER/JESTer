@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  cyrus-core:
+    build: .
+    container_name: cyrus-core-instance
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+    # If using an external database, you can add it as another service here
+    # and reference it via DATABASE_URL in your .env file

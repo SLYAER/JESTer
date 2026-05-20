@@ -71,6 +71,23 @@ C.Y.R.U.S. uses your browser's local storage by default (which means it remember
 
 C.Y.R.U.S. has dynamic hooks that can be connected to the database of your choice.
 
+## Running Independently via Docker (Cross-Platform)
+
+If you prefer to run C.Y.R.U.S. completely isolated from your host machine (no Node.js installation required) and ensure it runs natively on any OS (Windows, Mac, or Linux), you can use Docker.
+
+### Step 1: Install Docker
+Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+
+### Step 2: Configure Environment
+Rename `.env.example` to `.env` and fill in your generated API keys (`GEMINI_API_KEY`, etc.).
+
+### Step 3: Run the Container
+Open your terminal in the C.Y.R.U.S. project folder and run:
+```sh
+docker-compose up --build
+```
+This builds the ecosystem and safely runs the application on port `3000`. Open `http://localhost:3000` in your browser.
+
 ---
 
 ## Troubleshooting
